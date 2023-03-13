@@ -1,0 +1,26 @@
+Bonxai está preocupado desde que escapou da forca, e agora precisa se comunicar através de mensagens criptografadas.
+Entretanto, ele só conhece a Cifra de Júlio César, que usará para codificar suas mensagens.
+
+Formato de entrada:
+
+N -> Tamanho do vetor de caracteres
+
+N caracteres (Todos minúsculos e sem espaço)
+
+X -> Deslocamento
+
+Formato de saída:
+
+O vetor de caracteres codificado.
+
+Exemplos de:
+
+Entrada:
+
+7
+matheus
+5
+
+Saída:
+
+rfymjzx

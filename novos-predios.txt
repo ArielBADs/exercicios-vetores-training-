@@ -1,0 +1,50 @@
+Em uma rua serão construídos N prédios. Cada prédio tem uma altura Ai. 
+
+Você é uma das pessoas responsáveis pela supervisão das obras e por isso precisa saber informações dos projetos.
+
+Você recebe um vetor contendo a altura de cada um dos N prédios que serão construídos e a partir dele vai extrais as seguintes informações:
+
+- Quantas alturas distintas de prédios existem no total.
+- Quantos prédios são altos, médios e baixos.
+- A diferença de altura do maior e do menor prédio.
+
+OBS: Um prédio é considerado alto se tem altura >= 100, médio se tem altura >= 50 e pequeno se tem altura < 50.
+Formato de entrada
+
+Um inteiro N, representando quantos prédios serão construídos.
+1 <= N <= 100
+Na próxima linha N inteiros, representando a altura de cada prédio Ai.
+Formato de saída
+
+Na primeira linha quantas alturas distintas de prédios existem.
+Na segunda linha quantos prédios são altos.
+Na terceira  linha quantos prédios são médios.
+Na quarta linha quantos prédios são baixos.
+Na quinta linha a diferença de altura entre o maior e o menor prédio.
+Exemplos de:
+
+Entrada
+
+5
+12 125 75 75 75
+
+Saída
+
+3
+1
+3
+1
+113
+
+Entrada
+
+3
+50 50 50
+
+Saída
+
+1
+0
+3
+0
+0
